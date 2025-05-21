@@ -1,0 +1,41 @@
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.AssemblyReference.cache
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.FrmManual.resources
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.Properties.Resources.resources
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.GenerateResource.cache
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.CoreCompileInputs.cache
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.exe.config
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.exe
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.pdb
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\BLL.dll
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\Model.dll
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\BLL.pdb
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\Model.pdb
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVe.19C18130.Up2Date
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.exe
+D:\vs-repo\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.pdb
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.exe.config
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.exe
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.pdb
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\HslCommunication.dll
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\HslControls.dll
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\HslCommunication.xml
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\HslControls.pdb
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\HslControls.xml
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.AssemblyReference.cache
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.FrmConfig.resources
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.FrmMain.resources
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.FrmManual.resources
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.Properties.Resources.resources
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.View.FrmNumberPad.resources
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.View.FrmReview.resources
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.GenerateResource.cache
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.CoreCompileInputs.cache
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVe.19C18130.Up2Date
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.exe
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.pdb
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.exe.manifest
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.application
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.exe.manifest
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.application
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\Config.ini
+D:\MyProject\CSharp_Learn\SingleVehicle_Refactoring - 副本\SingleVehicle_Refactoring\bin\Debug\SensorParameter.ini
