@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -74,7 +75,7 @@ namespace SingleVehicle_Refactoring.View
                     string[] values = line.Split(','); // 处理每一行的数据
                     ReviewCurve(values); // 调用绘图函数
                 }
-
+                AxisRestore("XY"); // 重新选择文件后，重置缩放
                 grpX.Enabled = true;
                 grpY.Enabled = true;
             }
@@ -93,55 +94,82 @@ namespace SingleVehicle_Refactoring.View
         // 根据输入的最小值和最大值对X轴进行缩放，间隔设置为最大值和最小值之差的十分之一，最小为0.1
         private void btnScaleX_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtMinX.Text) || string.IsNullOrEmpty(txtMaxX.Text))
-            {
-                MessageBox.Show("请输入最小值和最大值");
-                return;
-            }
-            float minX = float.Parse(txtMinX.Text);
-            float maxX = float.Parse(txtMaxX.Text);
-            if (minX >= maxX)
-            {
-                MessageBox.Show("最小值必须小于最大值");
-                return;
-            }
-            chtReviewCurve.ChartAreas[0].AxisX.Minimum = minX;
-            chtReviewCurve.ChartAreas[0].AxisX.Maximum = maxX;
-            chtReviewCurve.ChartAreas[0].AxisX.Interval = maxX - minX >= 1 ? Math.Round((maxX - minX) / 10, 1) : 0.1;
-        }
-
-        private void btnRestoreX_Click(object sender, EventArgs e)
-        {
-            chtReviewCurve.ChartAreas[0].AxisX.Minimum = 0;
-            chtReviewCurve.ChartAreas[0].AxisX.Maximum = double.NaN; // NaN表示自动计算最大值
-            chtReviewCurve.ChartAreas[0].AxisX.Interval = 0; // 0表示自动计算间隔
+            //if (string.IsNullOrEmpty(txtMinX.Text) || string.IsNullOrEmpty(txtMaxX.Text))
+            //{
+            //    MessageBox.Show("请输入最小值和最大值");
+            //    return;
+            //}
+            //float minX = float.Parse(txtMinX.Text);
+            //float maxX = float.Parse(txtMaxX.Text);
+            //if (minX >= maxX)
+            //{
+            //    MessageBox.Show("最小值必须小于最大值");
+            //    return;
+            //}
+            //chtReviewCurve.ChartAreas[0].AxisX.Minimum = minX;
+            //chtReviewCurve.ChartAreas[0].AxisX.Maximum = maxX;
+            //chtReviewCurve.ChartAreas[0].AxisX.Interval = maxX - minX >= 1 ? Math.Round((maxX - minX) / 10, 1) : 0.1;
+            AxisScale("X");
         }
 
         // 根据输入的最小值和最大值对Y轴进行缩放，间隔设置为最大值和最小值之差的十分之一，最小为1
         private void btnScaleY_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtMinY.Text) || string.IsNullOrEmpty(txtMaxY.Text))
+            //if (string.IsNullOrEmpty(txtMinY.Text) || string.IsNullOrEmpty(txtMaxY.Text))
+            //{
+            //    MessageBox.Show("请输入最小值和最大值");
+            //    return;
+            //}
+            //float minY = float.Parse(txtMinY.Text);
+            //float maxY = float.Parse(txtMaxY.Text);
+            //if (minY >= maxY)
+            //{
+            //    MessageBox.Show("最小值必须小于最大值");
+            //    return;
+            //}
+            //chtReviewCurve.ChartAreas[0].AxisY.Minimum = minY;
+            //chtReviewCurve.ChartAreas[0].AxisY.Maximum = maxY;
+            //chtReviewCurve.ChartAreas[0].AxisY.Interval = maxY - minY >= 10 ? Math.Round((maxY - minY) / 10, 1) : 1;
+            AxisScale("Y");
+        }
+
+        private void AxisScale(string axisStr)
+        {
+            string minText = string.Empty;
+            string maxText = string.Empty;
+            var axis = new System.Windows.Forms.DataVisualization.Charting.Axis();
+            switch (axisStr)
+            {
+                case "X":
+                    minText = txtMinX.Text;
+                    maxText = txtMaxX.Text;
+                    axis = chtReviewCurve.ChartAreas[0].AxisX;
+                    break;
+                case "Y":
+                    minText = txtMinY.Text;
+                    maxText = txtMaxY.Text;
+                    axis = chtReviewCurve.ChartAreas[0].AxisY;
+                    break;
+                default:
+                    MessageBox.Show("输入轴错误，请检查程序");
+                    return;
+            }
+
+            if (string.IsNullOrEmpty(minText) || string.IsNullOrEmpty(maxText))
             {
                 MessageBox.Show("请输入最小值和最大值");
                 return;
             }
-            float minY = float.Parse(txtMinY.Text);
-            float maxY = float.Parse(txtMaxY.Text);
-            if (minY >= maxY)
+            float minValue = float.Parse(minText);
+            float maxValue = float.Parse(maxText);
+            if (minValue >= maxValue)
             {
                 MessageBox.Show("最小值必须小于最大值");
                 return;
             }
-            chtReviewCurve.ChartAreas[0].AxisY.Minimum = minY;
-            chtReviewCurve.ChartAreas[0].AxisY.Maximum = maxY;
-            chtReviewCurve.ChartAreas[0].AxisY.Interval = maxY - minY >= 10 ? Math.Round((maxY - minY) / 10, 1) : 1;
-        }
-
-        private void btnRestoreY_Click(object sender, EventArgs e)
-        {
-            chtReviewCurve.ChartAreas[0].AxisY.Minimum = 0;
-            chtReviewCurve.ChartAreas[0].AxisY.Maximum = double.NaN; // NaN表示自动计算最大值
-            chtReviewCurve.ChartAreas[0].AxisY.Interval = 0; // 0表示自动计算间隔
+            axis.Minimum = minValue;
+            axis.Maximum = maxValue;
+            //axis.Interval = maxValue - minValue >= 10 ? Math.Round((maxValue - minValue) / 10, 1) : 1;
         }
 
         private void txtScale_Click(object sender, EventArgs e)
@@ -149,6 +177,36 @@ namespace SingleVehicle_Refactoring.View
             FrmNumberPad frmNumberPad = new FrmNumberPad(sender);
             frmNumberPad.ShowDialog();
             frmNumberPad.Dispose();
+        }
+
+        private void btnRestoreX_Click(object sender, EventArgs e)
+        {
+            AxisRestore("X");
+        }
+
+        private void btnRestoreY_Click(object sender, EventArgs e)
+        {
+            AxisRestore("Y");
+        }
+
+        /// <summary>
+        /// 根据参数还原坐标轴，“X”还原X轴，“Y”还原Y轴，“XY”还原X轴和Y轴
+        /// </summary>
+        /// <param name="axis">要还原的轴</param>
+        private void AxisRestore(string axis)
+        {
+            if (axis.Contains("X"))
+            {
+                chtReviewCurve.ChartAreas[0].AxisX.Minimum = 0;
+                chtReviewCurve.ChartAreas[0].AxisX.Maximum = double.NaN; // NaN表示自动计算最大值
+                chtReviewCurve.ChartAreas[0].AxisX.Interval = 0; // 0表示自动计算间隔
+            }
+            if (axis.Contains("Y"))
+            {
+                chtReviewCurve.ChartAreas[0].AxisY.Minimum = 0;
+                chtReviewCurve.ChartAreas[0].AxisY.Maximum = double.NaN; // NaN表示自动计算最大值
+                chtReviewCurve.ChartAreas[0].AxisY.Interval = 0; // 0表示自动计算间隔
+            }
         }
 
     }
