@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# 编译文件和发布文件
+SingleVehicle_Refactoring/bin/
+SingleVehicle_Refactoring/obj/
+SingleVehicle_Refactoring/publish/
