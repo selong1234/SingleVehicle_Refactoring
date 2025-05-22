@@ -35,6 +35,7 @@
             // 
             // btnManual
             // 
+            this.btnManual.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnManual.Location = new System.Drawing.Point(69, 124);
             this.btnManual.Name = "btnManual";
             this.btnManual.Size = new System.Drawing.Size(122, 59);
@@ -45,6 +46,7 @@
             // 
             // btnConfig
             // 
+            this.btnConfig.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnConfig.Location = new System.Drawing.Point(286, 124);
             this.btnConfig.Name = "btnConfig";
             this.btnConfig.Size = new System.Drawing.Size(122, 59);
@@ -55,6 +57,7 @@
             // 
             // btnReview
             // 
+            this.btnReview.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnReview.Location = new System.Drawing.Point(473, 124);
             this.btnReview.Name = "btnReview";
             this.btnReview.Size = new System.Drawing.Size(122, 59);
