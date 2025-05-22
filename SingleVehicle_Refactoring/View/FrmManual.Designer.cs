@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnFast = new System.Windows.Forms.Button();
             this.btnSlow = new System.Windows.Forms.Button();
             this.btnSensitivity = new System.Windows.Forms.Button();
@@ -231,16 +231,16 @@
             // 
             // chtCurve
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chtCurve.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chtCurve.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.chtCurve.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chtCurve.Legends.Add(legend3);
             this.chtCurve.Location = new System.Drawing.Point(14, 39);
             this.chtCurve.Name = "chtCurve";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chtCurve.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chtCurve.Series.Add(series3);
             this.chtCurve.Size = new System.Drawing.Size(834, 617);
             this.chtCurve.TabIndex = 7;
             this.chtCurve.Text = "chart1";
@@ -248,7 +248,7 @@
             // btnAcquisitionStart
             // 
             this.btnAcquisitionStart.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnAcquisitionStart.Location = new System.Drawing.Point(15, 667);
+            this.btnAcquisitionStart.Location = new System.Drawing.Point(15, 660);
             this.btnAcquisitionStart.Name = "btnAcquisitionStart";
             this.btnAcquisitionStart.Size = new System.Drawing.Size(104, 50);
             this.btnAcquisitionStart.TabIndex = 0;
@@ -259,7 +259,7 @@
             // btnAcquisitionStop
             // 
             this.btnAcquisitionStop.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnAcquisitionStop.Location = new System.Drawing.Point(168, 667);
+            this.btnAcquisitionStop.Location = new System.Drawing.Point(168, 660);
             this.btnAcquisitionStop.Name = "btnAcquisitionStop";
             this.btnAcquisitionStop.Size = new System.Drawing.Size(104, 50);
             this.btnAcquisitionStop.TabIndex = 1;
@@ -270,7 +270,7 @@
             // btnSaveData
             // 
             this.btnSaveData.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSaveData.Location = new System.Drawing.Point(321, 667);
+            this.btnSaveData.Location = new System.Drawing.Point(321, 660);
             this.btnSaveData.Name = "btnSaveData";
             this.btnSaveData.Size = new System.Drawing.Size(104, 50);
             this.btnSaveData.TabIndex = 2;

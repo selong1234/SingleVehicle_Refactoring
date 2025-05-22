@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|d:\\myproject\\git_repos\\selong1234\\singlevehicle_refactoring\\singlevehicle_refactoring\\view\\frmreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|d:\\myproject\\git_repos\\selong1234\\singlevehicle_refactoring\\singlevehicle_refactoring\\view\\frmreview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmreview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\Model\\Sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\Model\\Sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\Model\\ModuleCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\Model\\ModuleCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\View\\FrmManual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\singlevehicle_refactoring\\view\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\singlevehicle_refactoring\\view\\frmmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\singlevehicle_refactoring\\view\\frmreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\Model\\Sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\Model\\Sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|d:\\myproject\\git_repos\\selong1234\\singlevehicle_refactoring\\singlevehicle_refactoring\\view\\frmreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +43,8 @@
       "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\BLL\\BLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\singlevehicle_refactoring\\view\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\singlevehicle_refactoring\\view\\frmnumberpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmnumberpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\View\\FrmManual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\Model\\ModuleCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:SingleVehicle_Refactoring\\Model\\ModuleCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\singlevehicle_refactoring\\view\\frmmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|solutionrelative:singlevehicle_refactoring\\view\\frmmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{934E7D73-4F90-4C65-B63C-16B29D4661A6}|SingleVehicle_Refactoring\\SingleVehicle_Refactoring.csproj|D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,79 +90,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmReview.Designer.cs",
-              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.Designer.cs",
-              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmReview.Designer.cs",
-              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.Designer.cs",
-              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmReview.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T01:15:53.789Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAFQBAAAAAAAAAAAAAHABAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-05-22T01:43:07.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BLL.cs",
-              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\BLL\\BLL.cs",
-              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\BLL\\BLL.cs",
-              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\BLL\\BLL.cs",
-              "RelativeToolTip": "SingleVehicle_Refactoring\\BLL\\BLL.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAmwGQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:39:07.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "FrmMain.cs [Design]",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmMain.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmMain.cs",
-              "ToolTip": "D:\\MyProject\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmMain.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmMain.cs [Design]",
+              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmMain.cs [Design]",
+              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:02:33.363Z"
+              "WhenOpened": "2025-04-09T02:02:33.363Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "FrmReview.cs",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmReview.cs",
-              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.cs*",
-              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmReview.cs*",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAAwKMAAAAyAAAA",
+              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.cs",
+              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmReview.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAwKYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T01:33:12.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmNumberPad.cs [Design]",
-              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs",
-              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmNumberPad.cs",
-              "ToolTip": "D:\\MyProject\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T02:05:14.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "FrmManual.cs",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmManual.cs",
               "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs",
               "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmManual.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAAAMcAAAAJAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAwMcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:55:50.932Z"
+              "WhenOpened": "2024-08-20T11:55:50.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "ModuleCard.cs",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\Model\\ModuleCard.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\Model\\ModuleCard.cs",
@@ -170,11 +149,12 @@
               "RelativeToolTip": "SingleVehicle_Refactoring\\Model\\ModuleCard.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T07:21:43.349Z"
+              "WhenOpened": "2025-04-17T07:21:43.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Sensor.cs",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\Model\\Sensor.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\Model\\Sensor.cs",
@@ -187,19 +167,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FrmReview.cs [Design]",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmReview.cs",
-              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.cs [Design]*",
-              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmReview.cs [Design]*",
+              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmReview.cs [Design]",
+              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmReview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T01:29:56.679Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "FrmManual.cs [Design]",
+              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs",
+              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmManual.cs",
+              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs [Design]",
+              "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmManual.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:46:08.963Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmNumberPad.cs [Design]",
+              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs",
+              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmNumberPad.cs",
+              "ToolTip": "D:\\MyProject\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmNumberPad.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T02:05:14.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BLL.cs",
+              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\BLL\\BLL.cs",
+              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\BLL\\BLL.cs",
+              "ToolTip": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\BLL\\BLL.cs",
+              "RelativeToolTip": "SingleVehicle_Refactoring\\BLL\\BLL.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAmwGQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:39:07.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmMain.cs",
               "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmMain.cs",
@@ -207,18 +222,8 @@
               "RelativeToolTip": "SingleVehicle_Refactoring\\View\\FrmMain.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAWwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:45:47.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmManual.cs [Design]",
-              "DocumentMoniker": "D:\\MyProject\\Git_Repos\\selong1234\\SingleVehicle_Refactoring\\SingleVehicle_Refactoring\\View\\FrmManual.cs",
-              "RelativeDocumentMoniker": "SingleVehicle_Refactoring\\View\\FrmManual.cs",
-              "ToolTip": "D:\\MyProject\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmManual.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\CSharp_Learn\\SingleVehicle_Refactoring - \u526F\u672C\\SingleVehicle_Refactoring\\View\\FrmManual.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T08:46:08.963Z"
+              "WhenOpened": "2025-05-20T06:45:47.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
