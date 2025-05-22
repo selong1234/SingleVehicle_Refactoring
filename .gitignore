@@ -363,6 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # 编译文件和发布文件
-SingleVehicle_Refactoring/bin/
-SingleVehicle_Refactoring/obj/
-SingleVehicle_Refactoring/publish/
+SingleVehicle_Refactoring/SingleVehicle_Refactoring/bin/
+SingleVehicle_Refactoring/SingleVehicle_Refactoring/obj/
+SingleVehicle_Refactoring/SingleVehicle_Refactoring/publish/
