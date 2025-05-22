@@ -46,9 +46,6 @@ D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refact
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.application
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.exe
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\SingleVehicle_Refactoring.pdb
-D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\HslCommunication.xml
-D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\HslControls.pdb
-D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\bin\Debug\HslControls.xml
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.AssemblyReference.cache
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.FrmConfig.resources
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.FrmMain.resources
@@ -60,6 +57,5 @@ D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refact
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.csproj.CoreCompileInputs.cache
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.exe.manifest
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.application
-D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVe.19C18130.Up2Date
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.exe
 D:\MyProject\Git_Repos\selong1234\SingleVehicle_Refactoring\SingleVehicle_Refactoring\obj\Debug\SingleVehicle_Refactoring.pdb

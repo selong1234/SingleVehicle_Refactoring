@@ -63,12 +63,6 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HslCommunication">
-      <HintPath>..\..\HslCommunicationExample\packages\HslCommunication.6.2.3\lib\net35\HslCommunication.dll</HintPath>
-    </Reference>
-    <Reference Include="HslControls">
-      <HintPath>..\..\HslCommunicationExample\packages\HslControls.2.1.3\lib\net35\HslControls.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />

@@ -42,30 +42,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HslCommunication.dll" size="655360">
-      <assemblyIdentity name="HslCommunication" version="6.2.3.0" publicKeyToken="CDB2261FA039ED67" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/BLzl0D16iR0aUtXPoQ6qXl+RNg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HslControls.dll" size="318464">
-      <assemblyIdentity name="HslControls" version="2.1.3.0" publicKeyToken="A3AD7C5C937EC0C0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LbtD2mlqk56fLKC0UC22mZRiZbw=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SingleVehicle_Refactoring.exe" size="45552">
       <assemblyIdentity name="SingleVehicle_Refactoring" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -73,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>0g9M0lF8YAuG3sCdVvWBZpVNh8c=</dsig:DigestValue>
+        <dsig:DigestValue>tKs4svd7M4LzWSuiCTScn0rBvl4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
