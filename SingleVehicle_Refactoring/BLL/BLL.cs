@@ -112,7 +112,7 @@ namespace BLL
             chartArea.AxisX.Minimum = 0;
             chartArea.AxisX.Maximum = double.NaN; // NaN表示自动计算最大值
             chartArea.AxisX.MajorGrid.Interval = 0; // 0表示自动计算间隔
-            chartArea.AxisX.MajorGrid.LineColor = System.Drawing.ColorTranslator.FromHtml("#FF888888");
+            chartArea.AxisX.MajorGrid.LineColor = System.Drawing.ColorTranslator.FromHtml("#FF555555");
             chartArea.AxisX.MinorGrid.Enabled = true;
             chartArea.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
             chartArea.AxisX.MinorGrid.Interval = 0; // 0表示自动计算间隔
@@ -120,7 +120,7 @@ namespace BLL
             chartArea.AxisY.Minimum = 0;
             chartArea.AxisY.Maximum = double.NaN; // NaN表示自动计算最大值
             chartArea.AxisY.MajorGrid.Interval = 100; // 0表示自动计算间隔
-            chartArea.AxisY.MajorGrid.LineColor = System.Drawing.ColorTranslator.FromHtml("#FF888888");
+            chartArea.AxisY.MajorGrid.LineColor = System.Drawing.ColorTranslator.FromHtml("#FF555555");
             chartArea.AxisY.MinorGrid.Enabled = true;
             chartArea.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
             chartArea.AxisY.MinorGrid.Interval = 0; // 0表示自动计算间隔
@@ -137,7 +137,7 @@ namespace BLL
             seriesLCG.ChartType = SeriesChartType.Line;
             seriesZDG.Color = System.Drawing.Color.Orange;
             seriesZDG.ChartType = SeriesChartType.Line;
-            seriesFFG.Color = System.Drawing.Color.Yellow;
+            seriesFFG.Color = System.Drawing.Color.Blue;
             seriesFFG.ChartType = SeriesChartType.Line;
             seriesJHFG.Color = System.Drawing.Color.Green;
             seriesJHFG.ChartType = SeriesChartType.Line;
