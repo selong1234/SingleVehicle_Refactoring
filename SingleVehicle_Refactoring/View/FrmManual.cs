@@ -21,6 +21,7 @@ namespace SingleVehicle_Refactoring
     public partial class FrmManual : Form
     {
         private readonly FrmMain _frmMain;
+        private readonly string[] iniConfig = BLL1.LoadUserConfiguration();
         const ushort Sample = 500;  //每次采集采样数 
         const ushort SensorAmount = 6;  //传感器数量
         private List<Control> controlButtons = new List<Control>();

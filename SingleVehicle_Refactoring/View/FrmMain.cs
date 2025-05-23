@@ -28,10 +28,10 @@ namespace SingleVehicle_Refactoring
 
         private void btnConfig_Click(object sender, EventArgs e)
         {
-            FrmConfig frmConfig = new FrmConfig(this);
+            FrmSensorConfig frmSensorConfig = new FrmSensorConfig(this);
             this.Hide();
-            frmConfig.ShowDialog();
-            frmConfig.Dispose();
+            frmSensorConfig.ShowDialog();
+            frmSensorConfig.Dispose();
         }
 
         private void btnReview_Click(object sender, EventArgs e)

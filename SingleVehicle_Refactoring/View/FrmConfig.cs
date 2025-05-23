@@ -14,6 +14,7 @@ namespace SingleVehicle_Refactoring
     public partial class FrmConfig : Form
     {
         private readonly FrmMain _frmMain;
+        private string[] _paras = new string[50];
 
 
         public FrmConfig(FrmMain frmMain)
@@ -28,15 +29,14 @@ namespace SingleVehicle_Refactoring
 
         public void FrmConfig_Load(object sender, EventArgs e)
         {
-            string[] paras = BLL1.LoadUserConfiguration();
-            txtDataSavePath.Text = paras[0];
+            _paras = BLL1.LoadUserConfiguration();
+            txtDataSavePath.Text = _paras[0];
         }
 
         private void btnSaveCfg_Click(object sender, EventArgs e)
         {
-            string[] paras = new string[50];
-            paras[0] = txtDataSavePath.Text;
-            BLL1.SaveUserConfiguration(paras);
+            _paras[0] = txtDataSavePath.Text;
+            BLL1.SaveUserConfiguration(_paras);
         }
 
     }

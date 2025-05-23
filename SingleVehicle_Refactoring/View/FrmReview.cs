@@ -21,7 +21,6 @@ namespace SingleVehicle_Refactoring.View
         {
             InitializeComponent();
             _frmMain = frmMain;
-
             this.FormClosing += (s, e) => { _frmMain.Show(); }; // Show the main form when this form is closed
         }
 
@@ -81,7 +80,7 @@ namespace SingleVehicle_Refactoring.View
             }
             else
             {
-                MessageBox.Show("未选择文件");
+                MessageBox.Show("未选择文件", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -91,45 +90,13 @@ namespace SingleVehicle_Refactoring.View
             chtReviewCurve.Series[check.Text.ToString()].Enabled = check.Checked;
         }
 
-        // 根据输入的最小值和最大值对X轴进行缩放，间隔设置为最大值和最小值之差的十分之一，最小为0.1
         private void btnScaleX_Click(object sender, EventArgs e)
         {
-            //if (string.IsNullOrEmpty(txtMinX.Text) || string.IsNullOrEmpty(txtMaxX.Text))
-            //{
-            //    MessageBox.Show("请输入最小值和最大值");
-            //    return;
-            //}
-            //float minX = float.Parse(txtMinX.Text);
-            //float maxX = float.Parse(txtMaxX.Text);
-            //if (minX >= maxX)
-            //{
-            //    MessageBox.Show("最小值必须小于最大值");
-            //    return;
-            //}
-            //chtReviewCurve.ChartAreas[0].AxisX.Minimum = minX;
-            //chtReviewCurve.ChartAreas[0].AxisX.Maximum = maxX;
-            //chtReviewCurve.ChartAreas[0].AxisX.Interval = maxX - minX >= 1 ? Math.Round((maxX - minX) / 10, 1) : 0.1;
             AxisScale("X");
         }
 
-        // 根据输入的最小值和最大值对Y轴进行缩放，间隔设置为最大值和最小值之差的十分之一，最小为1
         private void btnScaleY_Click(object sender, EventArgs e)
         {
-            //if (string.IsNullOrEmpty(txtMinY.Text) || string.IsNullOrEmpty(txtMaxY.Text))
-            //{
-            //    MessageBox.Show("请输入最小值和最大值");
-            //    return;
-            //}
-            //float minY = float.Parse(txtMinY.Text);
-            //float maxY = float.Parse(txtMaxY.Text);
-            //if (minY >= maxY)
-            //{
-            //    MessageBox.Show("最小值必须小于最大值");
-            //    return;
-            //}
-            //chtReviewCurve.ChartAreas[0].AxisY.Minimum = minY;
-            //chtReviewCurve.ChartAreas[0].AxisY.Maximum = maxY;
-            //chtReviewCurve.ChartAreas[0].AxisY.Interval = maxY - minY >= 10 ? Math.Round((maxY - minY) / 10, 1) : 1;
             AxisScale("Y");
         }
 
