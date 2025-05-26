@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnFast = new System.Windows.Forms.Button();
             this.btnSlow = new System.Windows.Forms.Button();
             this.btnSensitivity = new System.Windows.Forms.Button();
@@ -153,6 +153,7 @@
             // 
             this.txtLCG.Location = new System.Drawing.Point(77, 12);
             this.txtLCG.Name = "txtLCG";
+            this.txtLCG.ReadOnly = true;
             this.txtLCG.Size = new System.Drawing.Size(85, 21);
             this.txtLCG.TabIndex = 1;
             // 
@@ -160,6 +161,7 @@
             // 
             this.txtZDG.Location = new System.Drawing.Point(754, 12);
             this.txtZDG.Name = "txtZDG";
+            this.txtZDG.ReadOnly = true;
             this.txtZDG.Size = new System.Drawing.Size(85, 21);
             this.txtZDG.TabIndex = 5;
             // 
@@ -212,6 +214,7 @@
             // 
             this.txtFFG.Location = new System.Drawing.Point(248, 12);
             this.txtFFG.Name = "txtFFG";
+            this.txtFFG.ReadOnly = true;
             this.txtFFG.Size = new System.Drawing.Size(85, 21);
             this.txtFFG.TabIndex = 2;
             // 
@@ -219,6 +222,7 @@
             // 
             this.txtJHFG.Location = new System.Drawing.Point(417, 12);
             this.txtJHFG.Name = "txtJHFG";
+            this.txtJHFG.ReadOnly = true;
             this.txtJHFG.Size = new System.Drawing.Size(85, 21);
             this.txtJHFG.TabIndex = 3;
             // 
@@ -226,21 +230,22 @@
             // 
             this.txtJYFG.Location = new System.Drawing.Point(590, 11);
             this.txtJYFG.Name = "txtJYFG";
+            this.txtJYFG.ReadOnly = true;
             this.txtJYFG.Size = new System.Drawing.Size(85, 21);
             this.txtJYFG.TabIndex = 4;
             // 
             // chtCurve
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chtCurve.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chtCurve.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chtCurve.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chtCurve.Legends.Add(legend1);
             this.chtCurve.Location = new System.Drawing.Point(14, 39);
             this.chtCurve.Name = "chtCurve";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chtCurve.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chtCurve.Series.Add(series1);
             this.chtCurve.Size = new System.Drawing.Size(834, 617);
             this.chtCurve.TabIndex = 7;
             this.chtCurve.Text = "chart1";

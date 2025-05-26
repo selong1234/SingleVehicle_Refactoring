@@ -82,7 +82,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\BLL.cs" />
+    <Compile Include="BLL\CommonFun.cs" />
     <Compile Include="Model\Sensor.cs" />
     <Compile Include="Model\INIHelper.cs" />
     <Compile Include="Model\ModuleCard.cs" />
@@ -154,9 +154,6 @@
       <DependentUpon>FrmSensorConfig.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="Config.ini">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -167,9 +164,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SensorParameter.ini">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="SingleVehicle_Refactoring_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

@@ -13,8 +13,8 @@ namespace Model
         public int RangeMin;  //量程
         public int RangeMax;  //量程
         public int SignalMin;
-        int SignalMax;
-        int Resistance;
+        //int SignalMax;
+        //int Resistance;
         private float _value;
         public float Value
         {
@@ -25,7 +25,7 @@ namespace Model
             //}
             get
             {
-                this._value = (this._voltage - this.Zero) * (this.Cal) / 1000;
+                this._value = (this._voltage - this.Zero) * (this.Coef) / 1000;
                 return this._value > 0 ? (int)this._value : 0;
             }
         }
@@ -39,9 +39,13 @@ namespace Model
 
                 this._voltage = value;
             }
+            get
+            {
+                return this._voltage;
+            }
         }
         public float Zero;  //零点
-        public float Cal;  //标定
+        public float Coef;  //标定
         public float Modify;  //修正
         //float CalVolt1;  //校准电压
         //float CalVolt2;  //校准电压

@@ -26,7 +26,12 @@ namespace SingleVehicle_Refactoring.View
 
         private void FrmReview_Load(object sender, EventArgs e)
         {
-            BLL1.InitChart(chtReviewCurve);
+            CommonFun.InitChart(chtReviewCurve);
+            foreach (var grpBox in this.Controls.OfType<GroupBox>())
+            {
+                foreach (var txtBox in grpBox.Controls.OfType<TextBox>())
+                    txtBox.Click += CommonFun.NumberPadInvoke;
+            }
             grpX.Enabled = false;
             grpY.Enabled = false;
         }
@@ -139,13 +144,6 @@ namespace SingleVehicle_Refactoring.View
             //axis.Interval = maxValue - minValue >= 10 ? Math.Round((maxValue - minValue) / 10, 1) : 1;
         }
 
-        private void txtScale_Click(object sender, EventArgs e)
-        {
-            FrmNumberPad frmNumberPad = new FrmNumberPad(sender);
-            frmNumberPad.ShowDialog();
-            frmNumberPad.Dispose();
-        }
-
         private void btnRestoreX_Click(object sender, EventArgs e)
         {
             AxisRestore("X");
@@ -175,6 +173,5 @@ namespace SingleVehicle_Refactoring.View
                 chtReviewCurve.ChartAreas[0].AxisY.Interval = 0; // 0表示自动计算间隔
             }
         }
-
     }
 }

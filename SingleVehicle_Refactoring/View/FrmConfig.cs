@@ -16,6 +16,10 @@ namespace SingleVehicle_Refactoring
         private readonly FrmMain _frmMain;
         private string[] _paras = new string[50];
 
+        static string configFilePath = AppDomain.CurrentDomain.BaseDirectory + "Config.ini";
+
+        private static readonly INIHelper sensorParameter = new INIHelper(configFilePath);
+
 
         public FrmConfig(FrmMain frmMain)
         {
@@ -29,14 +33,14 @@ namespace SingleVehicle_Refactoring
 
         public void FrmConfig_Load(object sender, EventArgs e)
         {
-            _paras = BLL1.LoadUserConfiguration();
-            txtDataSavePath.Text = _paras[0];
+            //_paras = CommonFun.LoadUserConfiguration();
+            //txtDataSavePath.Text = _paras[0];
         }
 
         private void btnSaveCfg_Click(object sender, EventArgs e)
         {
-            _paras[0] = txtDataSavePath.Text;
-            BLL1.SaveUserConfiguration(_paras);
+            //_paras[0] = txtDataSavePath.Text;
+            //CommonFun.SaveUserConfiguration(_paras);
         }
 
     }

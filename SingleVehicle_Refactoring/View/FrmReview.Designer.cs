@@ -159,7 +159,6 @@
             this.txtMinX.Name = "txtMinX";
             this.txtMinX.Size = new System.Drawing.Size(63, 21);
             this.txtMinX.TabIndex = 11;
-            this.txtMinX.Click += new System.EventHandler(this.txtScale_Click);
             // 
             // txtMaxX
             // 
@@ -167,7 +166,6 @@
             this.txtMaxX.Name = "txtMaxX";
             this.txtMaxX.Size = new System.Drawing.Size(63, 21);
             this.txtMaxX.TabIndex = 11;
-            this.txtMaxX.Click += new System.EventHandler(this.txtScale_Click);
             // 
             // btnScaleX
             // 
@@ -281,7 +279,6 @@
             this.txtMaxY.Name = "txtMaxY";
             this.txtMaxY.Size = new System.Drawing.Size(63, 21);
             this.txtMaxY.TabIndex = 11;
-            this.txtMaxY.Click += new System.EventHandler(this.txtScale_Click);
             // 
             // txtMinY
             // 
@@ -289,7 +286,6 @@
             this.txtMinY.Name = "txtMinY";
             this.txtMinY.Size = new System.Drawing.Size(63, 21);
             this.txtMinY.TabIndex = 11;
-            this.txtMinY.Click += new System.EventHandler(this.txtScale_Click);
             // 
             // FrmReview
             // 

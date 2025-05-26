@@ -30,14 +30,14 @@
         {
             this.btnSave = new System.Windows.Forms.Button();
             this.grpLCG = new System.Windows.Forms.GroupBox();
+            this.lblLCG_Value = new System.Windows.Forms.Label();
+            this.lblLCG_Volt = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtLCG_Coef = new System.Windows.Forms.TextBox();
             this.txtLCG_Zero = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblLCG_Volt = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblLCG_Value = new System.Windows.Forms.Label();
             this.grpFFG = new System.Windows.Forms.GroupBox();
             this.lblFFG_Value = new System.Windows.Forms.Label();
             this.lblFFG_Volt = new System.Windows.Forms.Label();
@@ -109,6 +109,60 @@
             this.grpLCG.Tag = "LCG";
             this.grpLCG.Text = "列车管";
             // 
+            // lblLCG_Value
+            // 
+            this.lblLCG_Value.AutoSize = true;
+            this.lblLCG_Value.Location = new System.Drawing.Point(147, 71);
+            this.lblLCG_Value.Name = "lblLCG_Value";
+            this.lblLCG_Value.Size = new System.Drawing.Size(29, 12);
+            this.lblLCG_Value.TabIndex = 2;
+            this.lblLCG_Value.Text = "压力";
+            // 
+            // lblLCG_Volt
+            // 
+            this.lblLCG_Volt.AutoSize = true;
+            this.lblLCG_Volt.Location = new System.Drawing.Point(147, 29);
+            this.lblLCG_Volt.Name = "lblLCG_Volt";
+            this.lblLCG_Volt.Size = new System.Drawing.Size(29, 12);
+            this.lblLCG_Volt.TabIndex = 2;
+            this.lblLCG_Volt.Text = "电压";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(228, 71);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(143, 12);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "传感器标定系数(Pa/mv)：";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(228, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(125, 12);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "传感器零点电压(mv)：";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(20, 71);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(131, 12);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "传感器换算压力(kPa)：";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(125, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "传感器当前电压(mv)：";
+            // 
             // txtLCG_Coef
             // 
             this.txtLCG_Coef.Location = new System.Drawing.Point(377, 67);
@@ -124,60 +178,6 @@
             this.txtLCG_Zero.Size = new System.Drawing.Size(72, 21);
             this.txtLCG_Zero.TabIndex = 0;
             this.txtLCG_Zero.Tag = "Zero";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "传感器当前电压(mv)：";
-            // 
-            // lblLCG_Volt
-            // 
-            this.lblLCG_Volt.AutoSize = true;
-            this.lblLCG_Volt.Location = new System.Drawing.Point(147, 29);
-            this.lblLCG_Volt.Name = "lblLCG_Volt";
-            this.lblLCG_Volt.Size = new System.Drawing.Size(29, 12);
-            this.lblLCG_Volt.TabIndex = 2;
-            this.lblLCG_Volt.Text = "电压";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(228, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 12);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "传感器零点电压(mv)：";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(228, 71);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 12);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "传感器标定系数(Pa/mv)：";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 12);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "传感器换算压力(kPa)：";
-            // 
-            // lblLCG_Value
-            // 
-            this.lblLCG_Value.AutoSize = true;
-            this.lblLCG_Value.Location = new System.Drawing.Point(147, 71);
-            this.lblLCG_Value.Name = "lblLCG_Value";
-            this.lblLCG_Value.Size = new System.Drawing.Size(29, 12);
-            this.lblLCG_Value.TabIndex = 2;
-            this.lblLCG_Value.Text = "压力";
             // 
             // grpFFG
             // 
@@ -282,7 +282,7 @@
             this.groupBox1.Size = new System.Drawing.Size(467, 109);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Tag = "LCG";
+            this.groupBox1.Tag = "JHFG";
             this.groupBox1.Text = "加缓风缸";
             // 
             // lblJHFG_Value
@@ -370,7 +370,7 @@
             this.groupBox2.Size = new System.Drawing.Size(467, 109);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Tag = "LCG";
+            this.groupBox2.Tag = "JYFG";
             this.groupBox2.Text = "降压风缸";
             // 
             // lblJYFG_Value
@@ -458,7 +458,7 @@
             this.groupBox3.Size = new System.Drawing.Size(467, 109);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Tag = "LCG";
+            this.groupBox3.Tag = "ZDG";
             this.groupBox3.Text = "制动缸";
             // 
             // lblZDG_Value
@@ -543,7 +543,10 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpLCG);
             this.Name = "FrmSensorConfig";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSensorConfig";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmSensorConfig_Load);
             this.grpLCG.ResumeLayout(false);
             this.grpLCG.PerformLayout();
             this.grpFFG.ResumeLayout(false);

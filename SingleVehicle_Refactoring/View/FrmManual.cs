@@ -21,9 +21,7 @@ namespace SingleVehicle_Refactoring
     public partial class FrmManual : Form
     {
         private readonly FrmMain _frmMain;
-        private readonly string[] iniConfig = BLL1.LoadUserConfiguration();
-        const ushort Sample = 500;  //每次采集采样数 
-        const ushort SensorAmount = 6;  //传感器数量
+
         private List<Control> controlButtons = new List<Control>();
         private Color controlButton_BackColor = System.Drawing.Color.RoyalBlue;
         private Color controlButton_ActiveColor = System.Drawing.Color.Lime;
@@ -67,11 +65,11 @@ namespace SingleVehicle_Refactoring
             this.Invoke(new Action(() =>
             {
                 float realTime = (float)Math.Round(time / 10d, 1);
-                this.chtCurve.Series[0].Points.AddXY(realTime, BLL1.sensorLCG.Value);
-                this.chtCurve.Series[1].Points.AddXY(realTime, BLL1.sensorZDG.Value);
-                this.chtCurve.Series[2].Points.AddXY(realTime, BLL1.sensorFFG.Value);
-                this.chtCurve.Series[3].Points.AddXY(realTime, BLL1.sensorJHFG.Value);
-                this.chtCurve.Series[4].Points.AddXY(realTime, BLL1.sensorJYFG.Value);
+                this.chtCurve.Series[0].Points.AddXY(realTime, CommonFun.sensorLCG.Value);
+                this.chtCurve.Series[1].Points.AddXY(realTime, CommonFun.sensorZDG.Value);
+                this.chtCurve.Series[2].Points.AddXY(realTime, CommonFun.sensorFFG.Value);
+                this.chtCurve.Series[3].Points.AddXY(realTime, CommonFun.sensorJHFG.Value);
+                this.chtCurve.Series[4].Points.AddXY(realTime, CommonFun.sensorJYFG.Value);
                 this.chtCurve.Series[5].Points.AddXY(realTime, 0); // 空白系列，保持图表一致性
             }));
 
@@ -86,23 +84,23 @@ namespace SingleVehicle_Refactoring
         {
             this.Invoke(new Action(() =>
             {
-                this.txtLCG.Text = BLL1.sensorLCG.Value.ToString();
-                this.txtZDG.Text = BLL1.sensorZDG.Value.ToString();
-                this.txtFFG.Text = BLL1.sensorFFG.Value.ToString();
-                this.txtJHFG.Text = BLL1.sensorJHFG.Value.ToString();
-                this.txtJYFG.Text = BLL1.sensorJYFG.Value.ToString();
+                this.txtLCG.Text = CommonFun.sensorLCG.Value.ToString();
+                this.txtZDG.Text = CommonFun.sensorZDG.Value.ToString();
+                this.txtFFG.Text = CommonFun.sensorFFG.Value.ToString();
+                this.txtJHFG.Text = CommonFun.sensorJHFG.Value.ToString();
+                this.txtJYFG.Text = CommonFun.sensorJYFG.Value.ToString();
             }));
         }
 
         private void FrmManual_Load(object sender, EventArgs e)
         {
             moduleCard.InitCard();
-            BLL1.SensorInit();
-            BLL1.InitChart(chtCurve);
+            CommonFun.SensorInit();
+            CommonFun.InitChart(chtCurve);
 
             Task.Factory.StartNew(() =>
             {
-                BLL1.ReadAI(sender, Sample, SensorAmount, 100);
+                CommonFun.ReadAI(100);
             });
             timerUpdateData.Start();
             btnAcquisitionStart.Enabled = true;
@@ -255,7 +253,7 @@ namespace SingleVehicle_Refactoring
         private void btnSaveData_Click(object sender, EventArgs e)
         {
             string path = ConfigurationManager.AppSettings["DataSavePath"];  // 试验数据保存路径
-            BLL1.SaveCSV(chtCurve, path);
+            CommonFun.SaveCSV(chtCurve, path);
             MessageBox.Show("数据存储完毕");
         }
 
