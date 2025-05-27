@@ -43,7 +43,7 @@ namespace BLL
             //sensor.Modify = float.Parse(iniHelper.GetValue(section, "Modify", filePath));
         }
 
-        public static void SensorInit()
+        public static void InitSensor()
         {
             ReadSensorParams("LCG", ref sensorLCG);
             ReadSensorParams("ZDG", ref sensorZDG);

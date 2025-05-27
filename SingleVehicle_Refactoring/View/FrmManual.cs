@@ -23,8 +23,9 @@ namespace SingleVehicle_Refactoring
         private readonly FrmMain _frmMain;
 
         private List<Control> controlButtons = new List<Control>();
-        private Color controlButton_BackColor = System.Drawing.Color.RoyalBlue;
-        private Color controlButton_ActiveColor = System.Drawing.Color.Lime;
+        private Color controlButton_ForeColor = System.Drawing.ColorTranslator.FromHtml("#FFFFFFFF");
+        private Color controlButton_BackColor = System.Drawing.ColorTranslator.FromHtml("#FF0000FF");
+        private Color controlButton_ActiveColor = System.Drawing.ColorTranslator.FromHtml("#FF008600");
         private ModuleCard moduleCard = new ModuleCard();
 
         private readonly System.Timers.Timer timerUpdateData = new System.Timers.Timer(500); // 更新显示数据，频率2Hz
@@ -55,6 +56,8 @@ namespace SingleVehicle_Refactoring
             foreach (var btn in controlButtons)
             {
                 btn.Click += ControlButton_Click;
+                btn.BackColor = controlButton_BackColor;  // 设置按钮初始背景颜色
+                btn.ForeColor = controlButton_ForeColor;  // 设置按钮初始前景颜色
             }
             timerUpdateData.Elapsed += UpdateData;
             timerDrawCurve.Elapsed += DrawCurve;
@@ -95,7 +98,7 @@ namespace SingleVehicle_Refactoring
         private void FrmManual_Load(object sender, EventArgs e)
         {
             moduleCard.InitCard();
-            CommonFun.SensorInit();
+            CommonFun.InitSensor();
             CommonFun.InitChart(chtCurve);
 
             Task.Factory.StartNew(() =>

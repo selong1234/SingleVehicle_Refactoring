@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnFast = new System.Windows.Forms.Button();
             this.btnSlow = new System.Windows.Forms.Button();
             this.btnSensitivity = new System.Windows.Forms.Button();
@@ -65,7 +65,7 @@
             // 
             this.btnFast.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnFast.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnFast.Location = new System.Drawing.Point(854, 64);
+            this.btnFast.Location = new System.Drawing.Point(869, 64);
             this.btnFast.Name = "btnFast";
             this.btnFast.Size = new System.Drawing.Size(123, 60);
             this.btnFast.TabIndex = 6;
@@ -76,7 +76,7 @@
             // 
             this.btnSlow.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnSlow.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSlow.Location = new System.Drawing.Point(854, 140);
+            this.btnSlow.Location = new System.Drawing.Point(869, 140);
             this.btnSlow.Name = "btnSlow";
             this.btnSlow.Size = new System.Drawing.Size(123, 60);
             this.btnSlow.TabIndex = 7;
@@ -87,7 +87,7 @@
             // 
             this.btnSensitivity.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnSensitivity.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSensitivity.Location = new System.Drawing.Point(854, 216);
+            this.btnSensitivity.Location = new System.Drawing.Point(869, 216);
             this.btnSensitivity.Name = "btnSensitivity";
             this.btnSensitivity.Size = new System.Drawing.Size(123, 60);
             this.btnSensitivity.TabIndex = 8;
@@ -98,7 +98,7 @@
             // 
             this.btnNo5.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnNo5.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnNo5.Location = new System.Drawing.Point(854, 292);
+            this.btnNo5.Location = new System.Drawing.Point(869, 292);
             this.btnNo5.Name = "btnNo5";
             this.btnNo5.Size = new System.Drawing.Size(123, 60);
             this.btnNo5.TabIndex = 9;
@@ -109,7 +109,7 @@
             // 
             this.btnStability.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnStability.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnStability.Location = new System.Drawing.Point(854, 444);
+            this.btnStability.Location = new System.Drawing.Point(869, 444);
             this.btnStability.Name = "btnStability";
             this.btnStability.Size = new System.Drawing.Size(123, 60);
             this.btnStability.TabIndex = 11;
@@ -120,7 +120,7 @@
             // 
             this.btnEmergency.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnEmergency.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnEmergency.Location = new System.Drawing.Point(854, 520);
+            this.btnEmergency.Location = new System.Drawing.Point(869, 520);
             this.btnEmergency.Name = "btnEmergency";
             this.btnEmergency.Size = new System.Drawing.Size(123, 60);
             this.btnEmergency.TabIndex = 12;
@@ -131,7 +131,7 @@
             // 
             this.btnSwitchPressure.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnSwitchPressure.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSwitchPressure.Location = new System.Drawing.Point(854, 596);
+            this.btnSwitchPressure.Location = new System.Drawing.Point(869, 596);
             this.btnSwitchPressure.Name = "btnSwitchPressure";
             this.btnSwitchPressure.Size = new System.Drawing.Size(123, 60);
             this.btnSwitchPressure.TabIndex = 13;
@@ -142,7 +142,7 @@
             // 
             this.btnNo6.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnNo6.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnNo6.Location = new System.Drawing.Point(854, 368);
+            this.btnNo6.Location = new System.Drawing.Point(869, 368);
             this.btnNo6.Name = "btnNo6";
             this.btnNo6.Size = new System.Drawing.Size(123, 60);
             this.btnNo6.TabIndex = 10;
@@ -151,102 +151,117 @@
             // 
             // txtLCG
             // 
-            this.txtLCG.Location = new System.Drawing.Point(77, 12);
+            this.txtLCG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLCG.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLCG.Location = new System.Drawing.Point(103, 20);
             this.txtLCG.Name = "txtLCG";
             this.txtLCG.ReadOnly = true;
-            this.txtLCG.Size = new System.Drawing.Size(85, 21);
+            this.txtLCG.Size = new System.Drawing.Size(64, 19);
             this.txtLCG.TabIndex = 1;
             // 
             // txtZDG
             // 
-            this.txtZDG.Location = new System.Drawing.Point(754, 12);
+            this.txtZDG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtZDG.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtZDG.Location = new System.Drawing.Point(817, 20);
             this.txtZDG.Name = "txtZDG";
             this.txtZDG.ReadOnly = true;
-            this.txtZDG.Size = new System.Drawing.Size(85, 21);
+            this.txtZDG.Size = new System.Drawing.Size(64, 19);
             this.txtZDG.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(19, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(84, 21);
             this.label1.TabIndex = 6;
             this.label1.Text = "列 车 管：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(183, 15);
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(194, 19);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 12);
+            this.label2.Size = new System.Drawing.Size(84, 21);
             this.label2.TabIndex = 6;
             this.label2.Text = "副 风 缸：";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(352, 15);
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(369, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.Size = new System.Drawing.Size(90, 21);
             this.label3.TabIndex = 6;
             this.label3.Text = "加缓风缸：";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(689, 15);
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(731, 19);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.Size = new System.Drawing.Size(84, 21);
             this.label4.TabIndex = 6;
             this.label4.Text = "制 动 缸：";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(525, 14);
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(550, 19);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 12);
+            this.label5.Size = new System.Drawing.Size(90, 21);
             this.label5.TabIndex = 6;
             this.label5.Text = "降压风缸：";
             // 
             // txtFFG
             // 
-            this.txtFFG.Location = new System.Drawing.Point(248, 12);
+            this.txtFFG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFFG.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFFG.Location = new System.Drawing.Point(280, 20);
             this.txtFFG.Name = "txtFFG";
             this.txtFFG.ReadOnly = true;
-            this.txtFFG.Size = new System.Drawing.Size(85, 21);
+            this.txtFFG.Size = new System.Drawing.Size(64, 19);
             this.txtFFG.TabIndex = 2;
             // 
             // txtJHFG
             // 
-            this.txtJHFG.Location = new System.Drawing.Point(417, 12);
+            this.txtJHFG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtJHFG.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJHFG.Location = new System.Drawing.Point(460, 20);
             this.txtJHFG.Name = "txtJHFG";
             this.txtJHFG.ReadOnly = true;
-            this.txtJHFG.Size = new System.Drawing.Size(85, 21);
+            this.txtJHFG.Size = new System.Drawing.Size(64, 19);
             this.txtJHFG.TabIndex = 3;
             // 
             // txtJYFG
             // 
-            this.txtJYFG.Location = new System.Drawing.Point(590, 11);
+            this.txtJYFG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtJYFG.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJYFG.Location = new System.Drawing.Point(640, 20);
             this.txtJYFG.Name = "txtJYFG";
             this.txtJYFG.ReadOnly = true;
-            this.txtJYFG.Size = new System.Drawing.Size(85, 21);
+            this.txtJYFG.Size = new System.Drawing.Size(64, 19);
             this.txtJYFG.TabIndex = 4;
             // 
             // chtCurve
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chtCurve.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chtCurve.Legends.Add(legend1);
-            this.chtCurve.Location = new System.Drawing.Point(14, 39);
+            chartArea2.Name = "ChartArea1";
+            this.chtCurve.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chtCurve.Legends.Add(legend2);
+            this.chtCurve.Location = new System.Drawing.Point(14, 64);
             this.chtCurve.Name = "chtCurve";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chtCurve.Series.Add(series1);
-            this.chtCurve.Size = new System.Drawing.Size(834, 617);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chtCurve.Series.Add(series2);
+            this.chtCurve.Size = new System.Drawing.Size(834, 592);
             this.chtCurve.TabIndex = 7;
             this.chtCurve.Text = "chart1";
             // 
@@ -288,9 +303,10 @@
             this.chkJYFG.AutoSize = true;
             this.chkJYFG.Checked = true;
             this.chkJYFG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkJYFG.Location = new System.Drawing.Point(754, 483);
+            this.chkJYFG.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chkJYFG.Location = new System.Drawing.Point(760, 586);
             this.chkJYFG.Name = "chkJYFG";
-            this.chkJYFG.Size = new System.Drawing.Size(48, 16);
+            this.chkJYFG.Size = new System.Drawing.Size(57, 21);
             this.chkJYFG.TabIndex = 14;
             this.chkJYFG.Text = "JYFG";
             this.chkJYFG.UseVisualStyleBackColor = true;
@@ -301,9 +317,10 @@
             this.chkJHFG.AutoSize = true;
             this.chkJHFG.Checked = true;
             this.chkJHFG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkJHFG.Location = new System.Drawing.Point(754, 461);
+            this.chkJHFG.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chkJHFG.Location = new System.Drawing.Point(760, 564);
             this.chkJHFG.Name = "chkJHFG";
-            this.chkJHFG.Size = new System.Drawing.Size(48, 16);
+            this.chkJHFG.Size = new System.Drawing.Size(59, 21);
             this.chkJHFG.TabIndex = 15;
             this.chkJHFG.Text = "JHFG";
             this.chkJHFG.UseVisualStyleBackColor = true;
@@ -314,9 +331,10 @@
             this.chkFFG.AutoSize = true;
             this.chkFFG.Checked = true;
             this.chkFFG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkFFG.Location = new System.Drawing.Point(754, 439);
+            this.chkFFG.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chkFFG.Location = new System.Drawing.Point(760, 542);
             this.chkFFG.Name = "chkFFG";
-            this.chkFFG.Size = new System.Drawing.Size(42, 16);
+            this.chkFFG.Size = new System.Drawing.Size(50, 21);
             this.chkFFG.TabIndex = 16;
             this.chkFFG.Text = "FFG";
             this.chkFFG.UseVisualStyleBackColor = true;
@@ -327,9 +345,10 @@
             this.chkZDG.AutoSize = true;
             this.chkZDG.Checked = true;
             this.chkZDG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkZDG.Location = new System.Drawing.Point(754, 417);
+            this.chkZDG.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chkZDG.Location = new System.Drawing.Point(760, 520);
             this.chkZDG.Name = "chkZDG";
-            this.chkZDG.Size = new System.Drawing.Size(42, 16);
+            this.chkZDG.Size = new System.Drawing.Size(54, 21);
             this.chkZDG.TabIndex = 17;
             this.chkZDG.Text = "ZDG";
             this.chkZDG.UseVisualStyleBackColor = true;
@@ -340,9 +359,10 @@
             this.chkLCG.AutoSize = true;
             this.chkLCG.Checked = true;
             this.chkLCG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkLCG.Location = new System.Drawing.Point(754, 395);
+            this.chkLCG.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.chkLCG.Location = new System.Drawing.Point(760, 498);
             this.chkLCG.Name = "chkLCG";
-            this.chkLCG.Size = new System.Drawing.Size(42, 16);
+            this.chkLCG.Size = new System.Drawing.Size(51, 21);
             this.chkLCG.TabIndex = 18;
             this.chkLCG.Text = "LCG";
             this.chkLCG.UseVisualStyleBackColor = true;

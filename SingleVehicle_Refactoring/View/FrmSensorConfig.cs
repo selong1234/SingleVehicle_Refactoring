@@ -47,12 +47,13 @@ namespace SingleVehicle_Refactoring.View
                 MessageBox.Show("Error: " + ex.Message);
             }
             MessageBox.Show("Save Success");
+            CommonFun.InitSensor();
         }
 
         private void FrmSensorConfig_Load(object sender, EventArgs e)
         {
             moduleCard.InitCard();
-            CommonFun.SensorInit();
+            CommonFun.InitSensor();
             Task.Factory.StartNew(() =>
             {
                 CommonFun.ReadAI(500);
