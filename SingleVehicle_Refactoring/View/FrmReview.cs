@@ -26,11 +26,11 @@ namespace SingleVehicle_Refactoring.View
 
         private void FrmReview_Load(object sender, EventArgs e)
         {
-            CommonFun.InitChart(chtReviewCurve);
+            CommonFunc.InitChart(chtReviewCurve);
             foreach (var grpBox in this.Controls.OfType<GroupBox>())
             {
                 foreach (var txtBox in grpBox.Controls.OfType<TextBox>())
-                    txtBox.Click += CommonFun.NumberPadInvoke;
+                    txtBox.Click += CommonFunc.NumberPadInvoke;
             }
             grpX.Enabled = false;
             grpY.Enabled = false;
@@ -79,7 +79,8 @@ namespace SingleVehicle_Refactoring.View
                     string[] values = line.Split(','); // 处理每一行的数据
                     ReviewCurve(values); // 调用绘图函数
                 }
-                AxisRestore("XY"); // 重新选择文件后，重置缩放
+                CommonFunc.RestoreAxis(chtReviewCurve.ChartAreas[0].AxisX); // 重新选择文件后，重置缩放
+                CommonFunc.RestoreAxis(chtReviewCurve.ChartAreas[0].AxisY); // 重新选择文件后，重置缩放
                 grpX.Enabled = true;
                 grpY.Enabled = true;
             }
@@ -97,12 +98,14 @@ namespace SingleVehicle_Refactoring.View
 
         private void btnScaleX_Click(object sender, EventArgs e)
         {
-            AxisScale("X");
+            //AxisScale("X");
+            CommonFunc.ScaleAxis(chtReviewCurve.ChartAreas[0].AxisX, txtMinX.Text, txtMaxX.Text);
         }
 
         private void btnScaleY_Click(object sender, EventArgs e)
         {
-            AxisScale("Y");
+            //AxisScale("Y");
+            CommonFunc.ScaleAxis(chtReviewCurve.ChartAreas[0].AxisY, txtMinY.Text, txtMaxY.Text);
         }
 
         private void AxisScale(string axisStr)
@@ -146,32 +149,12 @@ namespace SingleVehicle_Refactoring.View
 
         private void btnRestoreX_Click(object sender, EventArgs e)
         {
-            AxisRestore("X");
+            CommonFunc.RestoreAxis(chtReviewCurve.ChartAreas[0].AxisX);
         }
 
         private void btnRestoreY_Click(object sender, EventArgs e)
         {
-            AxisRestore("Y");
-        }
-
-        /// <summary>
-        /// 根据参数还原坐标轴，“X”还原X轴，“Y”还原Y轴，“XY”还原X轴和Y轴
-        /// </summary>
-        /// <param name="axis">要还原的轴</param>
-        private void AxisRestore(string axis)
-        {
-            if (axis.Contains("X"))
-            {
-                chtReviewCurve.ChartAreas[0].AxisX.Minimum = 0;
-                chtReviewCurve.ChartAreas[0].AxisX.Maximum = double.NaN; // NaN表示自动计算最大值
-                chtReviewCurve.ChartAreas[0].AxisX.Interval = 0; // 0表示自动计算间隔
-            }
-            if (axis.Contains("Y"))
-            {
-                chtReviewCurve.ChartAreas[0].AxisY.Minimum = 0;
-                chtReviewCurve.ChartAreas[0].AxisY.Maximum = double.NaN; // NaN表示自动计算最大值
-                chtReviewCurve.ChartAreas[0].AxisY.Interval = 0; // 0表示自动计算间隔
-            }
-        }
+            CommonFunc.RestoreAxis(chtReviewCurve.ChartAreas[0].AxisY);
+        }    
     }
 }

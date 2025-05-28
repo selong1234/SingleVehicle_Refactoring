@@ -82,7 +82,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\CommonFun.cs" />
+    <Compile Include="BLL\CommonFunc.cs" />
     <Compile Include="Model\Sensor.cs" />
     <Compile Include="Model\INIHelper.cs" />
     <Compile Include="Model\ModuleCard.cs" />

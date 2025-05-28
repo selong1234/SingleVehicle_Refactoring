@@ -37,26 +37,26 @@ namespace SingleVehicle_Refactoring.View
                     {
                         string section = group.Tag.ToString();
                         string key = textBox.Tag.ToString();
-                        CommonFun.sensorParameter.SetValue(section, key, textBox.Text);
+                        CommonFunc.sensorParameter.SetValue(section, key, textBox.Text);
                     }
                 }
-                CommonFun.sensorParameter.WriteIniFile();
+                CommonFunc.sensorParameter.WriteIniFile();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
             MessageBox.Show("Save Success");
-            CommonFun.InitSensor();
+            CommonFunc.InitSensor();
         }
 
         private void FrmSensorConfig_Load(object sender, EventArgs e)
         {
             moduleCard.InitCard();
-            CommonFun.InitSensor();
+            CommonFunc.InitSensor();
             Task.Factory.StartNew(() =>
             {
-                CommonFun.ReadAI(500);
+                CommonFunc.ReadAI(500);
             });
             timerUpdateData.Start();
 
@@ -64,11 +64,11 @@ namespace SingleVehicle_Refactoring.View
             {
                 foreach (var textBox in group.Controls.OfType<TextBox>())
                 {
-                    textBox.Click += CommonFun.NumberPadInvoke;
+                    textBox.Click += CommonFunc.NumberPadInvoke;
 
                     string section = group.Tag.ToString();
                     string key = textBox.Tag.ToString();
-                    textBox.Text = CommonFun.sensorParameter.GetValue(section, key);
+                    textBox.Text = CommonFunc.sensorParameter.GetValue(section, key);
                 }
             }
         }
@@ -77,16 +77,16 @@ namespace SingleVehicle_Refactoring.View
         {
             this.Invoke(new Action(() =>
             {
-                lblLCG_Volt.Text = CommonFun.sensorLCG.Voltage.ToString();
-                lblLCG_Value.Text = CommonFun.sensorLCG.Value.ToString();
-                lblFFG_Volt.Text = CommonFun.sensorFFG.Voltage.ToString();
-                lblFFG_Value.Text = CommonFun.sensorFFG.Value.ToString();
-                lblJHFG_Volt.Text = CommonFun.sensorJHFG.Voltage.ToString();
-                lblJHFG_Value.Text = CommonFun.sensorJHFG.Value.ToString();
-                lblJYFG_Volt.Text = CommonFun.sensorJYFG.Voltage.ToString();
-                lblJYFG_Value.Text = CommonFun.sensorJYFG.Value.ToString();
-                lblZDG_Volt.Text = CommonFun.sensorZDG.Voltage.ToString();
-                lblZDG_Value.Text = CommonFun.sensorZDG.Value.ToString();
+                lblLCG_Volt.Text = CommonFunc.sensorLCG.Voltage.ToString("F1");
+                lblLCG_Value.Text = CommonFunc.sensorLCG.Value.ToString("F1");
+                lblFFG_Volt.Text = CommonFunc.sensorFFG.Voltage.ToString("F1");
+                lblFFG_Value.Text = CommonFunc.sensorFFG.Value.ToString("F1");
+                lblJHFG_Volt.Text = CommonFunc.sensorJHFG.Voltage.ToString("F1");
+                lblJHFG_Value.Text = CommonFunc.sensorJHFG.Value.ToString("F1");
+                lblJYFG_Volt.Text = CommonFunc.sensorJYFG.Voltage.ToString("F1");
+                lblJYFG_Value.Text = CommonFunc.sensorJYFG.Value.ToString("F1");
+                lblZDG_Volt.Text = CommonFunc.sensorZDG.Voltage.ToString("F1");
+                lblZDG_Value.Text = CommonFunc.sensorZDG.Value.ToString("F1");
             }));
         }
     }

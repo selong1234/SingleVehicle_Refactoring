@@ -18,7 +18,7 @@ using SingleVehicle_Refactoring.View;
 
 namespace BLL
 {
-    public static class CommonFun
+    public static class CommonFunc
     {
         const ushort Sample = 500;  //每次采集采样数 
         const ushort SensorAmount = 6;  //传感器数量
@@ -37,7 +37,7 @@ namespace BLL
 
 
         public static void ReadSensorParams(string section, ref Sensor sensor)
-        {          
+        {
             sensor.Zero = float.Parse(sensorParameter.GetValue(section, "Zero"));
             sensor.Coef = float.Parse(sensorParameter.GetValue(section, "Coef"));
             //sensor.Modify = float.Parse(iniHelper.GetValue(section, "Modify", filePath));
@@ -213,6 +213,36 @@ namespace BLL
         //    string section = "DataSavePath";
         //    INIHelper.INIWrite(section, "Path", value[0], iniFilePath);
         //}
+
+        public static void ScaleAxis(Axis axis, string minText, string maxText)
+        {
+            if (string.IsNullOrEmpty(minText) || string.IsNullOrEmpty(maxText))
+            {
+                MessageBox.Show("请输入最小值和最大值");
+                return;
+            }
+            float minValue = float.Parse(minText);
+            float maxValue = float.Parse(maxText);
+            if (minValue >= maxValue)
+            {
+                MessageBox.Show("最小值必须小于最大值");
+                return;
+            }
+            axis.Minimum = minValue;
+            axis.Maximum = maxValue;
+            //axis.Interval = maxValue - minValue >= 10 ? Math.Round((maxValue - minValue) / 10, 1) : 1;
+        }
+
+        /// <summary>
+        /// 根据参数还原坐标轴，“X”还原X轴，“Y”还原Y轴，“XY”还原X轴和Y轴
+        /// </summary>
+        /// <param name="axis">要还原的轴</param>
+        public static void RestoreAxis(Axis axis)
+        {
+            axis.Minimum = 0;
+            axis.Maximum = double.NaN; // NaN表示自动计算最大值
+            axis.Interval = 0; // 0表示自动计算间隔
+        }
 
         public static void NumberPadInvoke(object sender, EventArgs e)
         {

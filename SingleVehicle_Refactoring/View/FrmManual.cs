@@ -68,11 +68,11 @@ namespace SingleVehicle_Refactoring
             this.Invoke(new Action(() =>
             {
                 float realTime = (float)Math.Round(time / 10d, 1);
-                this.chtCurve.Series[0].Points.AddXY(realTime, CommonFun.sensorLCG.Value);
-                this.chtCurve.Series[1].Points.AddXY(realTime, CommonFun.sensorZDG.Value);
-                this.chtCurve.Series[2].Points.AddXY(realTime, CommonFun.sensorFFG.Value);
-                this.chtCurve.Series[3].Points.AddXY(realTime, CommonFun.sensorJHFG.Value);
-                this.chtCurve.Series[4].Points.AddXY(realTime, CommonFun.sensorJYFG.Value);
+                this.chtCurve.Series[0].Points.AddXY(realTime, CommonFunc.sensorLCG.Value);
+                this.chtCurve.Series[1].Points.AddXY(realTime, CommonFunc.sensorZDG.Value);
+                this.chtCurve.Series[2].Points.AddXY(realTime, CommonFunc.sensorFFG.Value);
+                this.chtCurve.Series[3].Points.AddXY(realTime, CommonFunc.sensorJHFG.Value);
+                this.chtCurve.Series[4].Points.AddXY(realTime, CommonFunc.sensorJYFG.Value);
                 this.chtCurve.Series[5].Points.AddXY(realTime, 0); // 空白系列，保持图表一致性
             }));
 
@@ -87,23 +87,23 @@ namespace SingleVehicle_Refactoring
         {
             this.Invoke(new Action(() =>
             {
-                this.txtLCG.Text = CommonFun.sensorLCG.Value.ToString();
-                this.txtZDG.Text = CommonFun.sensorZDG.Value.ToString();
-                this.txtFFG.Text = CommonFun.sensorFFG.Value.ToString();
-                this.txtJHFG.Text = CommonFun.sensorJHFG.Value.ToString();
-                this.txtJYFG.Text = CommonFun.sensorJYFG.Value.ToString();
+                this.txtLCG.Text = CommonFunc.sensorLCG.Value.ToString("F1");
+                this.txtZDG.Text = CommonFunc.sensorZDG.Value.ToString("F1");
+                this.txtFFG.Text = CommonFunc.sensorFFG.Value.ToString("F1");
+                this.txtJHFG.Text = CommonFunc.sensorJHFG.Value.ToString("F1");
+                this.txtJYFG.Text = CommonFunc.sensorJYFG.Value.ToString("F1");
             }));
         }
 
         private void FrmManual_Load(object sender, EventArgs e)
         {
             moduleCard.InitCard();
-            CommonFun.InitSensor();
-            CommonFun.InitChart(chtCurve);
+            CommonFunc.InitSensor();
+            CommonFunc.InitChart(chtCurve);
 
             Task.Factory.StartNew(() =>
             {
-                CommonFun.ReadAI(100);
+                CommonFunc.ReadAI(100);
             });
             timerUpdateData.Start();
             btnAcquisitionStart.Enabled = true;
@@ -256,7 +256,7 @@ namespace SingleVehicle_Refactoring
         private void btnSaveData_Click(object sender, EventArgs e)
         {
             string path = ConfigurationManager.AppSettings["DataSavePath"];  // 试验数据保存路径
-            CommonFun.SaveCSV(chtCurve, path);
+            CommonFunc.SaveCSV(chtCurve, path);
             MessageBox.Show("数据存储完毕");
         }
 
