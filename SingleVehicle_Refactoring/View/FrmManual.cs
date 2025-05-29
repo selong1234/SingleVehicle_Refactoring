@@ -59,6 +59,13 @@ namespace SingleVehicle_Refactoring
                 btn.BackColor = controlButton_BackColor;  // 设置按钮初始背景颜色
                 btn.ForeColor = controlButton_ForeColor;  // 设置按钮初始前景颜色
             }
+            foreach (var grpBox in this.Controls.OfType<GroupBox>())
+            {
+                grpBox.Enabled = false;
+                foreach (var txtBox in grpBox.Controls.OfType<TextBox>())
+                    txtBox.Click += CommonFunc.NumberPadInvoke;
+            }
+
             timerUpdateData.Elapsed += UpdateData;
             timerDrawCurve.Elapsed += DrawCurve;
         }
@@ -235,6 +242,8 @@ namespace SingleVehicle_Refactoring
                     series.Points.Clear();
                 }
             }
+            CommonFunc.RestoreAxis(chtCurve.ChartAreas[0].AxisX);
+            CommonFunc.RestoreAxis(chtCurve.ChartAreas[0].AxisY);
             time = 0;
             timerDrawCurve.Start();
             btnSaveData.Enabled = false;
@@ -250,6 +259,8 @@ namespace SingleVehicle_Refactoring
             btnSaveData.Enabled = true;
             btnAcquisitionStop.Enabled = false;
             btnAcquisitionStart.Enabled = true;
+            grpX.Enabled = true;
+            grpY.Enabled = true;
             this.ControlBox = true;
         }
 
@@ -264,6 +275,26 @@ namespace SingleVehicle_Refactoring
         {
             moduleCard.CloseAllChannel();
             moduleCard.CloseCard();
+        }
+
+        private void btnScaleX_Click(object sender, EventArgs e)
+        {
+            CommonFunc.ScaleAxis(chtCurve.ChartAreas[0].AxisX, txtMinX.Text, txtMaxX.Text);
+        }
+
+        private void btnScaleY_Click(object sender, EventArgs e)
+        {
+            CommonFunc.ScaleAxis(chtCurve.ChartAreas[0].AxisY, txtMinY.Text, txtMaxY.Text);
+        }
+
+        private void btnRestoreX_Click(object sender, EventArgs e)
+        {
+            CommonFunc.RestoreAxis(chtCurve.ChartAreas[0].AxisX);
+        }
+
+        private void btnRestoreY_Click(object sender, EventArgs e)
+        {
+            CommonFunc.RestoreAxis(chtCurve.ChartAreas[0].AxisY);
         }
     }
 }

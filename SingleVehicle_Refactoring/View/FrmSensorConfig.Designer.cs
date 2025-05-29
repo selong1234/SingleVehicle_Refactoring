@@ -101,7 +101,7 @@
             this.grpLCG.Controls.Add(this.label1);
             this.grpLCG.Controls.Add(this.txtLCG_Coef);
             this.grpLCG.Controls.Add(this.txtLCG_Zero);
-            this.grpLCG.Location = new System.Drawing.Point(12, 12);
+            this.grpLCG.Location = new System.Drawing.Point(20, 12);
             this.grpLCG.Name = "grpLCG";
             this.grpLCG.Size = new System.Drawing.Size(467, 109);
             this.grpLCG.TabIndex = 5;
@@ -277,7 +277,7 @@
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.txtJHFG_Coef);
             this.groupBox1.Controls.Add(this.txtJHFG_Zero);
-            this.groupBox1.Location = new System.Drawing.Point(12, 159);
+            this.groupBox1.Location = new System.Drawing.Point(20, 159);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(467, 109);
             this.groupBox1.TabIndex = 5;
@@ -453,7 +453,7 @@
             this.groupBox3.Controls.Add(this.label26);
             this.groupBox3.Controls.Add(this.txtZDG_Coef);
             this.groupBox3.Controls.Add(this.txtZDG_Zero);
-            this.groupBox3.Location = new System.Drawing.Point(12, 317);
+            this.groupBox3.Location = new System.Drawing.Point(20, 317);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(467, 109);
             this.groupBox3.TabIndex = 5;
